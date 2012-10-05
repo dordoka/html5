@@ -1,0 +1,92 @@
+#logo img {
+	height: auto;
+	width: 150px;
+	position: relative;
+	padding-left: 20px;
+	margin-top: 8px;	
+}
+
+header #menu {
+	background-color: rgba(0,0,0,0.2);
+	width: 100%;
+	height: 36px;
+	padding-bottom: 10px;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+}
+
+header div span {
+	color: white;
+	font-family: "Helvetica Neue", sans-serif;
+	font-weight: normal;
+	font-size: 18px;
+	text-align: right;
+	width: 80px;
+	position: relative fixed;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	float: right!important;
+}
+
+header div span:hover {
+	color: white;
+	font-family: "Helvetica Neue", sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: right;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	float: right!important;
+}
+
+body {
+	background: rgba(0,0,0, 0.9) url("../img/background.png") no-repeat center center fixed;
+	background-size: cover;
+}
+
+#revolution {
+	height: 300px;	
+}
+
+#revolution.overtext {
+	padding-left: 50px; 
+	text-align: left;
+	font-family: "Helvetica Neue", sans-serif;
+	font-weight: bold;
+	font-size: 72px;
+	text-shadow: 2px 2px 2px #000;
+	color: white;
+}
+
+.columns {
+	width: 990px;
+	height: auto;
+	padding-left: 50px;	
+}
+
+.functs {
+	font-family: "Helvetica Neue", sans-serif;
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+	text-shadow: 1px 1px 1px #000;
+	color: white;
+	height: 100px; 
+	width: 320px;
+	float: right!important;
+	background-color: rgba(0,0,0,0.5);
+	margin-right: 10px;
+	padding-top: 30px;
+}
+
+.functext {
+	font-family: "Helvetica Neue", sans-serif;
+	text-align: justify;
+	font-weight: bold;
+	font-size: 11px;
+	text-shadow: 1px 1px 1px #000;
+	color: white;	
+	padding-top: 20px;
+}
