@@ -1,10 +1,16 @@
 * {
 	margin: 0;
 	padding: 0;
-	#border-style: dashed;
-	#border-width: thin;
+	border-style: dashed;
+	border-width: thin;
+	border-bottom-color: white;
 	background-color: none;
 	color: none;
+}
+
+body {
+	background: rgba(0,0,0,0.9) url("../img/background.png") no-repeat center center fixed;
+	background-size: cover;
 }
 
 #logo img {
@@ -46,55 +52,65 @@ header ul li {
 header ul li a {
 	color: white;
 	text-decoration: none;
-	cursor: hand;
 }
 
 header ul li:hover {
 	cursor: hand;
-	background-color: black;
+	background-color: rgba(0,0,0,0.6);
 	float: right!important;
 }
 
-body {
-	background: rgba(0,0,0, 0.9) url("../img/background.png") no-repeat center center fixed;
-	background-size: cover;
-}
-
-#revolution {
+#wow {
 	height: 300px;	
 	padding-top: 100px;
 	padding-bottom: 40px;
 }
 
-#revolution p {
+#wow h1 {
 	padding-left: 50px; 
 	text-align: left;
-	font-family: "Helvetica Neue", sans-serif;
+	font-family: "Lato", "Helvetica Neue", sans-serif;
+	font-weight: 300;
+	font-size: 96px;
+	text-shadow: 2px 2px 2px #000;
+	letter-spacing: -5px;
+	color: white;
+	padding-bottom: 50px;
+}
+
+#wow h2 {
+	padding-left: 100px;
+	font-family: "Lato", "Helvetica Neue", sans-serif;
 	font-weight: bold;
-	font-size: 72px;
+	font-size: 42px;
 	text-shadow: 2px 2px 2px #000;
 	color: white;
 }
 
 .columns {
-	width: 990px;
-	height: auto;
+	width: auto;
+	height: 450px;
 	padding-left: 50px;	
 }
 
 .functs {
-	font-family: "Helvetica Neue", sans-serif;
+	font-family: "Lato", "Helvetica Neue", sans-serif;
 	text-align: center;
 	font-weight: bold;
-	font-size: 16px;
+	font-size: 18px;
 	text-shadow: 1px 1px 1px #000;
 	color: white;
-	height: 100px; 
+	height: 150px; 
 	width: 320px;
-	float: right!important;
+	float: left!important;
 	background-color: rgba(0,0,0,0.5);
 	margin-right: 10px;
 	padding-top: 30px;
+}
+
+.functs i {
+	margin-right: 10px;
+	font-size: 20px;
 }
 
 .functext {
@@ -110,3 +126,25 @@ body {
 	padding-top: 20px;
 	
 }
+
+html, body {
+	height: 100%;
+}
+
+#wrap {
+	min-height: 100%;
+}
+
+#main {
+	overflow: auto;
+	padding-bottom: 100px;
+	min-height: 100%;
+}  /* must be same height as the footer */
+
+#footer {
+	background-color: rgba(0,0,0,0.2);
+	position: relative;
+	margin-top: -100px; /* negative value of footer height */
+	height: 100px;
+	clear: both;
+} 
